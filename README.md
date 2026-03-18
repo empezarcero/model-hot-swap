@@ -19,7 +19,7 @@ No proxy, no middleware. It's a native OpenCode plugin that subscribes to `sessi
 Feed the install guide to your agent:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/empezarcero/model-hot-swap/main/INSTALL.md
+curl -fsSL https://raw.githubusercontent.com/empezarcero/model-hot-swap/master/INSTALL.md
 ```
 
 ### Manual install
