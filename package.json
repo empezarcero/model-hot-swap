@@ -1,0 +1,27 @@
+{
+  "name": "opencode-model-hot-swap",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that automatically switches models when providers hit rate limits or downtime",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.27",
+    "@opencode-ai/sdk": "^1.2.27"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.10",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/empezarcero/model-hot-swap.git"
+  }
+}
